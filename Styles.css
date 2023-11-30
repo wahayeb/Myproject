@@ -1,0 +1,374 @@
+
+.frm {
+display:flex;
+flex-direction:column;
+align-items: center;
+height:300px;
+width: 400px;
+border: 2px solid black;
+margin:auto;
+background-color:rgb(0,0,0,0.2);
+border-radius: 25px;
+
+}
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0,0,0,0.2);
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  input[type=email], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0,0,0,0.2);
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    background-color: #ffffff;
+    color: blue(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffffff;
+  }
+  div {
+    border-radius: 5px;
+   
+    padding: 20px;
+  }
+
+  .u1 {
+    list-style-type:none;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    overflow:hidden;
+    margin-top:-3px;
+    background: rgb(0,0,0,0.2);
+  }
+  li {
+    float:left;
+  }
+  li a {
+    display: block;
+    color:#a4a1aa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+   
+      float:left;
+   
+  }
+  
+  li a:hover {
+    background-color:rgb(63, 70, 72);
+  }
+  @media screen and( max-width:600px){
+    .frm {
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      height:300px;
+      width: 400px;
+      border: 2px solid black;
+      margin:auto;
+      background-color:rgb(0,0,0,0.2);
+      border-radius: 25px;
+      
+      }
+      input[type=text], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        input[type=email], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        
+        input[type=submit] {
+          width: 30%;
+          background-color: #ffffff;
+          color: blue(255, 255, 255);
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #ffffff;
+        }
+        div {
+          border-radius: 5px;
+         
+          padding: 20px;
+        }
+      
+        .u1 {
+          list-style-type:none;
+          margin-bottom:0;
+          margin-left:0;
+          margin-right:0;
+          padding:0;
+          overflow:hidden;
+          margin-top:-3px;
+          background: rgb(0,0,0,0.2);
+        }
+       
+        li a {
+          display: block;
+          color:#a4a1aa;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration:none;
+            float:left;
+          
+        }
+  }
+
+  @media screen and (max-width:768px) {
+    .frm {
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      height:300px;
+      width: 400px;
+      border: 2px solid black;
+      margin:auto;
+      background-color:rgb(0,0,0,0.2);
+      border-radius: 25px;
+      
+      }
+      input[type=text], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        input[type=email], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        
+        input[type=submit] {
+          width: 30%;
+          background-color: #ffffff;
+          color: blue(255, 255, 255);
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #ffffff;
+        }
+        div {
+          border-radius: 5px;
+         
+          padding: 20px;
+        }
+      
+        .u1 {
+          list-style-type:none;
+          margin-bottom:0;
+          margin-left:0;
+          margin-right:0;
+          padding:0;
+          overflow:hidden;
+          margin-top:-3px;
+          background: rgb(0,0,0,0.2);
+        }
+        
+        li a {
+          display: block;
+          color:#a4a1aa;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration:none;
+            float:left;
+          
+        }
+  }
+
+  @media screen and (max-width:992px){
+    .frm {
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      height:300px;
+      width: 400px;
+      border: 2px solid black;
+      margin:auto;
+      background-color:rgb(0,0,0,0.2);
+      border-radius: 25px;
+      
+      }
+      input[type=text], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        input[type=email], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        
+        input[type=submit] {
+          width: 30%;
+          background-color: #ffffff;
+          color: blue(255, 255, 255);
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #ffffff;
+        }
+        div {
+          border-radius: 5px;
+         
+          padding: 20px;
+        }
+      
+        .u1 {
+          list-style-type:none;
+          margin-bottom:0;
+          margin-left:0;
+          margin-right:0;
+          padding:0;
+          overflow:hidden;
+          margin-top:-3px;
+          background: rgb(0,0,0,0.2);
+        }
+       
+        li a {
+          display: block;
+          color:#a4a1aa;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration:none;
+            float:left;
+          
+        }
+  }
+
+  @media screen and (max-width:1200px){
+    .frm {
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      height:300px;
+      width: 400px;
+      border: 2px solid black;
+      margin:auto;
+      background-color:rgb(0,0,0,0.2);
+      border-radius: 25px;
+      
+      }
+      input[type=text], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        input[type=email], select {
+          width: 70%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid rgb(0,0,0,0.2);
+          border-radius: 4px;
+          box-sizing: border-box; 
+        }
+        
+        input[type=submit] {
+          width: 30%;
+          background-color: #ffffff;
+          color: blue(255, 255, 255);
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #ffffff;
+        }
+        div {
+          border-radius: 5px;
+         
+          padding: 20px;
+        }
+      
+        .u1 {
+          list-style-type:none;
+          margin-bottom:0;
+          margin-left:0;
+          margin-right:0;
+          padding:0;
+          overflow:hidden;
+          margin-top:-3px;
+          background: rgb(0,0,0,0.2);
+        }
+        li a {
+          display: block;
+          color:#a4a1aa;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration:none;
+            float:left;
+          
+        }
+         
+  }
